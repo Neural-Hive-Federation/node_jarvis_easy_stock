@@ -8,29 +8,9 @@ function App() {
 
   const accentColor = '#FF6B35';
 
-  const posts = [
-    {
-      id: 1,
-      image: 'https://via.placeholder.com/400x300',
-      title: 'Control de Inventario Inteligente',
-      content: 'Jarvis Easy Stock te permite controlar tus inventarios de manera eficiente y precisa con nuestra tecnología de escaneo IA y fotos móviles.',
-      date: '22 de Febrero de 2024',
-    },
-    {
-      id: 2,
-      image: 'https://via.placeholder.com/400x300',
-      title: 'Optimiza tus Procesos de Inventario',
-      content: 'Nuestra plataforma de SaaS te permite automatizar y optimizar tus procesos de inventario, reduciendo costos y aumentando la productividad.',
-      date: '15 de Marzo de 2024',
-    },
-    {
-      id: 3,
-      image: 'https://via.placeholder.com/400x300',
-      title: 'Soluciones de Inventario para Pequeños y Grandes Negocios',
-      content: 'En Jarvis Easy Stock, ofrecemos soluciones de inventario personalizadas para pequeños y grandes negocios, adaptadas a tus necesidades específicas.',
-      date: '01 de Abril de 2024',
-    },
-  ];
+import postsData from './data/posts.json';
+
+  const posts = postsData;
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

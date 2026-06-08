@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/673/800/600",
+    "title": "AI Revoluciona Control de Inventario SaaS",
+    "content": "La integración de IA en software de inventarios reduce errores en 70% y optimiza costos, según último estudio del sector tecnológico.",
+    "date": "HOY (JUNIO 2026)"
+  },
+  {
+    "id": 1,
+    "image": "/images/post-1.jpg",
+    "title": "Control de Inventario Optimizado",
+    "content": "Descubre cómo Jarvis Easy Stock te ayuda a gestionar tu almacén con IA, evitando quiebres de stock y maximizando tus ganancias.",
+    "date": "ENERO 2026"
+  }
+]
